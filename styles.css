@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin-block: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F0F1F1;
+}
+
+.top-nav-bar {
+    position: fixed;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+width: 100%;
+    background: #A9F7ED;
+    display: inline-block;
+    z-index: 3;
+
+}
+
+.top-nav-bar button {
+    float: left;
+    margin: 5px 0 0 5px;
+    width: 60px;
+    height: 40px;
+    background-color: inherit;
+}
+.session{
+    background-color: inherit;
+    border: solid 1px black ;
+    float: right;
+    width: 200px;
+    margin: 5px 5px;
+    height: 40px;
+}
+.below-nav-bar {
+
+    top: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0px;
+    top: 50px;
+    bottom: 0;
+
+    background: #DFF4EB;
+}
+
+main {
+
+    margin-left: 250px;
+
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: inline-flex;
+    flex-direction: row;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+.card {
+
+    background: #ffffff;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+.card h1,img,p, div {
+
+    background: inherit;
+}
+.vertical {
+
+    width: 200px;
+    height: 250px;
+    align-items: center;
+}
+.horizontal{
+    height: 270px;
+    width: 48%;
+    text-align: left;
+    line-height: 25px;
+}
+.circle-card{
+    background-color: #fdbe34;
+    height: 150px;
+    width: 150px;
+    border-radius: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-content{
+    margin: 10px;
+}
+
+.icon-text-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.skill-container{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+.progress-bar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 65%;
+}
+.progress-bar-border {
+    align-self: center;
+   width: 80%;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+   
+    margin-top: 20px;
+}
+
+.progress-percentage {
+    background-color: #0088d7;
+    height: 100%;
+}
+
+.course {
+
+    width: 80%;
+   
+}
+.progress-bar-container p {
+    margin-left: 5px;
+}
+
+/*------elementos unicos-------*/
+
+#next-class-date {
+    color: rgb(104, 104, 104);
+}
+#average-circle {
+    background-color: #ff9e3a;
+    color: #ffffff;
+}
+/*--------text-------------*/
+
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text-5 {
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.text-4{
+    font-size: 40px;
+    font-weight: 600;
+}
+.text-1{
+    font-size: 15px;
+    text-align: left;
+}
+
+/*--------------Icons/pictures---------*/
+
+.icon-size-3{
+    height: 70px;
+    margin: 10px 0px 10px;
+}
+.icon-size-1{
+    width: 20px;
+    margin: 0px 10px 0px 0px;
+}
