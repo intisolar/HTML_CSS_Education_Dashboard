@@ -66,7 +66,7 @@ main {
 .row{
     display: inline-flex;
     flex-direction: row;
-    height: 300px;
+    height: 275px;
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px 0px 30px;
@@ -86,7 +86,7 @@ main {
 }
 .vertical {
 
-    width: 200px;
+    width: 30%;
     height: 250px;
     align-items: center;
 }
